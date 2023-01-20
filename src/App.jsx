@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from "./components/Navbar"
+import Header from "./containers/Header"
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <div className="text-blue-400 bg-orange ">
-      Hello
-      <h1 className='text-darkBlue'>World</h1>
-    </div>
+    <main>
+      <div className={`bg-hbg w-full h-screen bg-cover bg-no-repeat bg-center`}>
+        <div className="bg-black/30 h-full">
+          <Navbar />
+          <hr className="lg:mx-[120px] mx-[25px] text-[#fff] h-[0.5px]"/>
+          <Header/>
+        </div>
+      </div>
+
+    </main>
   )
 }
 
