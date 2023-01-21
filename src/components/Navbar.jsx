@@ -7,8 +7,8 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false)
     
   return (
-      <nav className='text-white pt-[15px] lg:pt-[19px]  flex text-[18px] font-dmSans font-m leading-[30px] lg:px-[120px] px-[25px] justify-between items-center '>
-          <img src={logo} alt="logo" className='md:w-[147px] md:h-[50px] w-[100px] h-[35px] md:mb-5 mb-3 justify-self-start'/>
+      <nav className='text-white pt-[15px] lg:pt-[19px]  flex text-[18px] font-dmSans font-m leading-[30px] lg:mx-[120px] md:mx-[70px] mx-[25px] justify-between items-center'>
+          <img src={logo} alt="logo" className='md:w-[147px] md:h-[50px] w-[100px] h-[35px] md:mb-5 mb-3'/>
 
           <ul className={`sm:flex hidden justify-between items-end justify-self-end xl:mr-[200px] xl:gap-x-[30px] 3xl:gap-x-[150px] 3xl:mr-[300px] mt-7`}>
               <li className='border-b-[2.32181px] border-b-transparent hover:border-b-white hover:border-b-[2.32181px] px-[20px] pb-[10px]'>
@@ -26,7 +26,7 @@ const Navbar = () => {
               {toggle ? <HiX/> : <HiMenu /> } 
           </div>
         
-          <div className={`${toggle ? 'flex sm:hidden' : 'hidden'} absolute top-16 right-0 min-w-[140px] text-left text-[16px] leading-[20px] z-50 bg-offWhite mr-4 py-4 rounded-md`}>
+          <div className={`${toggle ? 'flex sm:hidden' : 'hidden'} absolute top-16 right-0 min-w-[140px] text-left text-[16px] leading-[20px] z-50 bg-offWhite mr-4 py-4 rounded-md slide-top`}>
               
            <ul className={`flex flex-col justify-end items-center gap-y-4 ml-7 text-orange`}>
                   <li><a href="#home">Home</a></li>
