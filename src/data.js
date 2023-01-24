@@ -290,4 +290,4 @@ const items = [
         },
     ]
 
-export default (rooms, items)
+export default { rooms, items }
