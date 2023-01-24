@@ -1,6 +1,4 @@
 import Navbar from "./components/Navbar"
-// import Header from "./containers/Header"
-// import Cost from "./containers/Cost"
 import {Header, Cost} from "./containers"
 
 function App() {

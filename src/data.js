@@ -1,6 +1,6 @@
-import { i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, bed, bath, space } from "./assets/images/index"
+import { i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, bed, bath, space } from "./assets/images"
 
-import { v1, v2, v3, v4, v5, v6 } from "./assets/icons/index"
+import { v1, v2, v3, v4, v5, v6 } from "./assets/icons"
 
 
 const rooms = [{

@@ -1,3 +1,5 @@
 import Navbar from "./Navbar";
+import Subheading from "./Subheading";
+import Map from "./Map";
 
-export default (Navbar)
+export { Navbar, Subheading, Map }
