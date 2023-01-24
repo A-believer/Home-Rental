@@ -7,7 +7,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false)
     
   return (
-      <nav className='text-white pt-[15px] lg:pt-[19px]  flex text-[18px] font-dmSans font-m leading-[30px] lg:mx-[120px] md:mx-[70px] mx-[25px] justify-between items-center'>
+      <nav className='text-white pt-[15px] lg:pt-[19px]  flex text-[18px] font-dmSans font-m leading-[30px] lg:mx-[100px] md:mx-[70px] mx-[25px] justify-between items-center'>
           <img src={logo} alt="logo" className='md:w-[147px] md:h-[50px] w-[100px] h-[35px] md:mb-5 mb-3'/>
 
           <ul className={`sm:flex hidden justify-between items-end justify-self-end xl:mr-[200px] xl:gap-x-[30px] 3xl:gap-x-[150px] 3xl:mr-[300px] mt-7`}>

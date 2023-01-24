@@ -1,3 +1,4 @@
 import Header from "./Header"
+import Cost from "./Cost"
 
-export default (Header)
+export { Header, Cost }
