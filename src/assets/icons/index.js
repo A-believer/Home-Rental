@@ -4,7 +4,6 @@ import googleplus from "./GooglePlus.png";
 import instagram from "./Instagram.png";
 import linkedin from "./LinkedIn.png";
 import logo from "./Logo.png";
-import logo1 from "./logo1.png";
 import path from "./Path.png";
 import pinterest from "./Pinterest.png";
 import playBtn from "./play-button.png";
@@ -21,7 +20,7 @@ import v6 from "./v6.png";
 import v7 from "./v7.png";
 
 
-export { facebook, fax, googleplus, instagram, linkedin, logo, logo1, path, pinterest, playBtn, quote, rss, shape, twitter, v1, v2, v3, v4, v5, v6, v7}
+export { facebook, fax, googleplus, instagram, linkedin, logo, path, pinterest, playBtn, quote, rss, shape, twitter, v1, v2, v3, v4, v5, v6, v7}
 
 
 

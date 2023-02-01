@@ -246,7 +246,9 @@ const items = [
             text2: "as possible!",
             img: v1,
             w:33,
-            h: 33
+    h: 33,
+    sw: 23,
+            sh: 23
         },
          {
             id: 2,
@@ -254,7 +256,9 @@ const items = [
             text2: "of community!",
             img: v2,
             w:34.33,
-            h:29.75
+           h: 29.75,
+           sw: 24.33,
+            sh: 19.75
         },
           {
             id: 3,
@@ -262,7 +266,9 @@ const items = [
             text2: "take care of landlord",
             img: v3,
             w: 35.73,
-            h: 39.41
+            h: 39.41,
+            sw: 25.73,
+            sh: 29.41
         },
            {
             id: 4,
@@ -270,7 +276,9 @@ const items = [
             text2: "environmental!",
             img: v4,
             w: 31.63,
-            h: 33.5
+             h: 33.5,
+             sw: 21.63,
+            sh: 23.5
         },
             {
             id: 5,
@@ -278,7 +286,9 @@ const items = [
             text2:"save money!",
             img: v5,
             w: 29.75,
-            h: 37.25
+              h: 37.25,
+              sw: 19.75,
+            sh: 37.25
         },
              {
             id: 6,
@@ -286,8 +296,10 @@ const items = [
             text2: "you use!",
             img: v6,
             w: 33.5,
-            h: 33.5
+               h: 33.5,
+               sw: 23.5,
+            sh: 23.5
         },
     ]
 
-export default { rooms, items }
+export { rooms, items }
